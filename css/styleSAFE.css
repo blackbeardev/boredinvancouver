@@ -1,0 +1,835 @@
+/*ALL PAGES
+-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*NORMALISE CSS
+------------------------------------*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+ol,
+li,
+a,
+div,
+br,
+hr,
+input,
+label,
+textarea,
+select,
+option {
+	margin: 0;
+	padding: 0;
+}
+
+/*UNIVERSAL STYLING
+-------------------------------------*/
+* {
+	box-sizing: border-box;
+}
+
+/*GENERAL LAYOUTS
+--------------------------------------*/
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#top-container {
+	margin: 0.5em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+label {
+	font-family: 'Dosis', sans-serif;
+}
+
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/*LOGO SECTION
+--------------------------------------*/
+#logo img {
+	margin-left: 1em;
+}
+
+/*MENU
+--------------------------------------*/
+
+#menu {
+	background: #dddad9;
+	padding: 1em;
+}
+
+#menu ul {
+	display: none;
+}
+
+#menu li {
+	list-style: none;
+}
+
+#hamburger {
+	color: #818080;
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	justify-content: space-between;
+}
+
+#hamburger h4 {
+	margin-left: 0.5em;
+}
+
+#search-icon {
+	flex-grow: 2;
+}
+
+.drop-down a {
+	color: #000;
+}
+
+/*HOME PAGE
+---------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*EXPLORE SECTION
+------------------------------------------*/
+
+#explore-container {
+	background-image: url("../images/boredinvanc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 3em 0 4em;
+}
+
+.explore-text {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 1.5em;
+	line-height: 1.4;
+}
+
+#searches {
+	display: flex;
+	flex-direction: column;
+	margin: 1.2em 0;
+}
+
+.width-input {
+	margin: 0.5em 0;
+	padding: 0.8em 0.3em;
+	border-radius: 5px;
+	border: none;
+}
+
+.form-button,
+.subscribe-button {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	padding: 0.8em 0.3em;
+	border-radius: 5px;
+	border: none;
+	background: #33adc5;
+	color: #fff;
+}
+
+/*CATEGORIES SECTION
+-------------------------------------*/
+
+.listing-categories {
+	text-align: center;
+	margin: 4em 0;
+}
+
+.listings-text {
+	color: #515b6a;
+}
+
+.category-sections {
+	display: flex;
+	flex-direction: column;
+}
+
+.category-sections a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.category-block {
+	margin: 2em 1.5em;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 2em 0.5em;
+	color: #fff;
+	font-size: 22px;
+}
+
+.category-block a{
+	color: #fff;
+}
+
+#events {
+	background-image: url("../images/events.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#unique {
+	background-image: url("../images/unique.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#indoor {
+	background-image: url("../images/indoor.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#food {
+	background-image: url("../images/food.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#escape {
+	background-image: url("../images/escape.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.recent-listings {
+	margin: 4em 0;
+}
+
+.category-text {
+	text-align: center;
+	color: #515b6a;
+}
+
+.listings-block {
+	margin: 1.2em 1.5em;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 2em 0.5em;
+	font-size: 22px;
+}
+
+.listings-block a {
+	color: #fff;
+}
+
+/*RECENT LISTINGS SECTION
+----------------------------------------*/
+
+#ropeswing {
+	background-image: url("../images/ropeswing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#waterfall {
+	background-image: url("../images/waterfall.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#nudist {
+	background-image: url("../images/nudist.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#mountainbike {
+	background-image: url("../images/mountainbike.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#cyclingtour {
+	background-image: url("../images/cyclingtour.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#canoeing {
+	background-image: url("../images/canoeing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#all-recent-listings {
+	text-align: center;
+	font-size: 35px;
+	margin: 0.5em 0;
+
+}
+
+
+
+.recent-listings {
+	text-decoration: none;
+	color: #33adc5;
+}
+
+/*BLURB SECTION
+---------------------------------------*/
+
+#blurb {
+	background: #303c40;
+	color: #fff;
+	padding: 5em 2em;
+	display: flex;
+	flex-direction: column;
+}
+
+#blurb a {
+	color: #fff;
+}
+
+.blurb-text {
+	margin-bottom: 4.5em;
+	line-height: 1.4;
+}
+
+.blurb-text p {
+	margin-bottom: 1.5em;
+	font-size: 16px;
+}
+
+.subscribe p {
+	margin-bottom: 1.5em;
+}
+
+.subscribe-button {
+	width: 100px;
+}
+
+/*FOOTER SECTION
+--------------------------------------*/
+footer {
+	padding: 2.5em 2em;
+	background: #283235;
+	color: #515b6a;
+}
+
+footer p {
+	margin-bottom: 0.5em;
+}
+
+
+.social-media li {
+	display: inline-block;
+}
+
+.social-media a {
+	color: #515b6a;
+	padding-right: 0.3em;
+}
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+	max-width: 900px;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*EVENTS/UNIQUE/INDOOR/FOOD/ESCAPE PAGES
+--------------------------------------------------------------------------------------------------------------------*/
+	#zombie {
+		background-image: url("../images/zombie.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+	#zombie a,
+	#morgue a,
+	#pillow a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	#morgue {
+		background-image: url("../images/morgue.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#pillow {
+		background-image: url("../images/pillow.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#naked {
+		background-image: url("../images/nakedride.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#escapeRoom {
+		background-image: url("../images/escaperoom.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#shooting {
+		background-image: url("../images/shooting.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#steak {
+		background-image: url("../images/steak.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#sushi {
+		background-image: url("../images/sushi.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#zipline {
+		background-image: url("../images/zipline.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#grousegrind {
+		background-image: url("../images/grousegrind.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+
+
+/*UNIQUE PAGE
+----------------------------------------------------------------------------------------------------------------------*/
+	#catCafe {
+		background-image: url("../images/catcafe.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+
+/*INDIVIDUAL PAGES
+------------------------------------------------------------------------------------------------------------------------*/
+
+
+	.indiv-page {
+		width: 100%;
+		height: 350px;
+		margin: 0 auto;
+		padding: 3em 2em 3em 2em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.intro-text {
+		color: #fff;
+	}
+
+	.intro-text h2 {
+		margin: 1em 0;
+	}
+
+	.intro-text h4 {
+		margin: 0.5em 0;
+	}
+
+
+	.intro-share h4 {
+		margin-bottom: 1em;
+	}
+
+	.leave-a-comment {
+		background: #999;
+		color: #fff;
+		padding: 0.3em;
+		border-radius: 5px;
+		border: none;
+	}
+
+	#float-share {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#float-share button {
+		margin-left: 1em;
+	}
+
+	#share-icon {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	#zombie-info {
+		background-image: url("../images/zombie.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#pillow-info {
+		background-image: url("../images/pillow.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#cat-cafe-info {
+		background-image: url("../images/catcafe.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+
+	#lhs {
+
+	}
+
+	#details {
+		margin: 2em 1em;
+	}
+
+	#details i,
+	.details-text p,
+	.make-contact h4{
+		color: #666;
+	}
+
+	#details h4,
+	#leave-a-comment-form h4{
+		color: #666;
+		margin-left: 0.8em;
+		font-size: 25px;
+	}
+
+	.details-icon {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.details-icon i,
+	#leave-a-comment-form i{
+		font-size: 25px;
+	}
+
+	.details-text p {
+		margin: 1em 0;
+	}
+
+	#leave-a-comment-form {
+		margin-left: 1em;
+		margin-top: 3em;
+	}
+
+	#comment-button {
+		width: 17em;
+		margin-bottom: 4em;
+		margin-left: 8em;
+	}
+
+	.make-contact {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.width-input2 {
+		border: 1px solid #666;
+		border-radius: 5px;
+		margin-left: 2em;
+		padding: 10px 0 10px 0;
+		width: 17em;
+	}
+
+	fieldset {
+		border: none;
+		margin-top: 1em;
+	}
+
+	.row label {
+
+		width: 20%;
+	}
+
+	.row {
+		margin-bottom: 1em;
+	}
+
+	.label-width{
+		padding-right: 1.5em;
+	}
+
+
+
+
+
+/*PSEUDO-CLASSES STYLING
+-----------------------------*/
+::-webkit-input-placeholder { /*Chrome/Opera/Safari*/
+	text-align: left;
+	font-style: italic;
+	padding-left: 10px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+	text-align: left;
+	font-style: italic;
+	padding-left: 10px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	text-align: left;
+	font-style: italic;
+	padding-left: 10px;
+}
+:-moz-placeholder { /* Firefox 18- */
+	text-align: left;
+	font-style: italic;
+	padding-left: 10px;
+}
+
+input[type="checkbox"]{
+	width: 5%;
+}
+
+input[type="radio"]{
+	width:5%;
+}
+
+input:focus {
+	background: #E2E7F0;
+	border: 1px solid #6a6a6a;
+}
+
+select:focus {
+	background: #fff;
+	border: 1px solid #6a6a6a;
+}
+
+textarea:focus {
+	background: #fff;
+	border: 1px solid #6a6a6a;
+}
+
+
+/*Media Queries - Tablet*/
+
+@media (min-width:760px) {
+
+/*GENERAL LAYOUT
+-----------------------------------*/
+	#container {
+		max-width: 1300px;
+	}
+
+/*SEARCHES SECTION
+-----------------------------------*/
+	#searches {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.width-input {
+		width: 28%;
+	}
+
+	.form-button {
+		width: 100%;
+	}
+
+/*CATEGORIES SECTION
+-----------------------------------*/
+	.category-sections {
+		display: flex;
+		flex-direction: row;
+		/*flex-wrap: wrap;*/
+		justify-content: space-between;
+	}
+
+	.category-block {
+		/*width: 500px;*/
+	}
+
+/*RECENT LISTINGS SECTION
+------------------------------------*/
+	.listing-selections {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.listings-block h3,
+	.listings-block h6{
+		width: 280px;
+	}
+
+	.category-text h5,
+	.listings-text h5 {
+		font-size: 15px;
+		margin-top: 1em;
+	}
+
+/*INDIVIDUAL PAGES SECTION
+------------------------------------*/
+	.indiv-page {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.intro-text {
+		margin: 4em 3em 4em 3em;
+	}
+
+	.intro-share {
+		margin: 4em 3em 4em 3em;
+	}
+
+	#details {
+		margin: 2em 3em;
+	}
+
+	#leave-a-comment-form {
+		margin-left: 5em;
+		margin-top: 5em;
+	}
+
+	.indiv-page-footer {
+		position: fixed;
+		bottom: 0;
+		width: 80%;
+	}
+
+/*BLURB SECTION
+------------------------------------*/
+	#blurb {
+		flex-direction: row;
+		justify-content: center;
+		padding: 4em 2em 1em 2em;
+	}
+
+	.blurb-text {
+		width: 40%;
+		margin-right: 2em;
+	}
+
+	.subscribe {
+		width: 40%;
+	}
+
+	#full-name {
+		width: 40%;
+	}
+
+	.subscribe-button {
+		width: 100px;
+	}
+
+/*FOOTER SECTION
+-------------------------------------*/
+	footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		font-size: 18px;
+		padding: 1em 2em;
+	}
+
+	footer p {
+		margin-right: 2em;
+	}
+
+	.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 5em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+	max-width: 900px;
+}
+
+}
